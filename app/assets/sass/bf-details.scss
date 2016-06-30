@@ -1,0 +1,198 @@
+/* begin - calendar customization */
+.ui-datepicker {
+  padding: 0 10px;
+
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.ui-datepicker .ui-datepicker-title {
+  font-weight: 600;
+}
+
+.ui-datepicker-year {
+  display: none;
+}
+
+.ui-datepicker-calendar thead {
+  border-bottom: 1px solid #ccc;
+}
+
+.ui-datepicker th {
+  font-weight: 500;
+
+  padding: 0;
+}
+
+.ui-datepicker td span,
+.ui-datepicker td a {
+  font-weight: 400;
+
+  text-align: center;
+
+  border-radius: 50%;
+}
+
+.ui-state-disabled {
+  color: #ccc;
+}
+
+.ui-datepicker-today a {
+  color: #4b4f54 !important;
+  background-color: #ccc;
+}
+
+.ui-datepicker td a:hover,
+.ui-datepicker td a.ui-state-active {
+  background-color: #fcf2cd;
+}
+
+.ui-datepicker-trigger {
+  position: absolute;
+  top: 10px;
+
+  width: 50px;
+  height: 50px;
+  margin-left: -50px;
+
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #ccc;
+  background-color: #fff;
+}
+
+.ui-datepicker-trigger {
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  text-align: center;
+}
+
+.ui-datepicker-trigger:before {
+  position: absolute;
+  top: 0;
+  right: auto;
+  bottom: auto;
+  left: 0;
+
+  width: 15px;
+  height: 15px;
+  margin: 10px 0 0 18px;
+
+  content: ' ';
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+
+  border: 2px solid #ccc;
+  border-width: 0 0 2px 2px;
+}
+
+.ui-menu {
+  background-color: #fff;
+  border: 1px #ccc solid;
+}
+
+.ui-menu .ui-state-focus {
+  background-color: #fcf2cd;
+  margin: 0;
+}
+
+div.col-left.hasDatepicker {
+  position: relative;
+}
+
+/* end - calendar customization */
+
+.lightbox .lightbox-main .jcf-select .jcf-select-opener:before {
+  border-color: #ccc;
+}
+
+.jcf-select-drop .jcf-select-drop-content {
+  border-color: #ccc;
+}
+
+.jcf-list ul li {
+  border-color: #ccc;
+}
+
+body > .jcf-select-drop {
+  margin-top: 10px;
+}
+
+.timeday {
+  margin-bottom: 0;
+}
+
+.timeday .jcf-select .jcf-select-text,
+.timeday .jcf-list {
+  font-size: 18px;
+}
+
+div.has-error input, div.has-error .jcf-select {
+  border: 1px solid #a94442 !important;
+}
+
+div.has-error div.list-error ul {
+  list-style: none;
+  color: #a94442;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.appointment-form div.col-right.state-info {
+  padding-top: 20px;
+}
+
+.state-info {
+  text-align: left;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.state-info span:nth-last-child(2), .state-info span:nth-last-child(3) {
+  padding-left: 1px;
+  padding-right: 5px;
+}
+
+.state-info a {
+  text-decoration: underline;
+}
+
+.contact-info.special-instruction-section,
+.contact-info.payment-info-section{
+  margin-top: 20px;
+}
+
+.credit-card-info {
+  padding: 5px 0;
+}
+
+.credit-card-info .jcf-select {
+  margin-bottom: 10px;
+}
+
+.credit-card-info > img {
+  vertical-align: middle;
+}
+
+.credit-card-icon.lowlight {
+  opacity: .5;
+}
+
+.suggested-address-popup button {
+  font-size: 15px;
+}
+
+.timeslots-active { min-height: 125px; }
+
+.appointment-form input.garments-email-input {
+  margin-top: 0;
+}
+
+.promo-code-container {
+  margin-bottom: 10px;
+}

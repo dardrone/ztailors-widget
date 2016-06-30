@@ -1,0 +1,41 @@
+#zWidget {
+  .confirm-booking {
+    h3 {
+      margin-bottom: 20px !important;
+    }
+
+    fieldset {
+      margin: 0 20px !important;
+      padding: 10px;
+
+      text-align: left;
+    }
+
+    fieldset.last {
+      margin-bottom: 20px !important;
+    }
+
+    fieldset p {
+      margin: 0;
+    }
+
+    fieldset h4 {
+      font-size: 15px;
+      margin: 0;
+    }
+
+    p.legend {
+      font-size: 13px;
+      font-style: italic;
+      line-height: 16px;
+      padding: 0 50px;
+    }
+
+    @media only screen and (max-width: 479px) {
+      p.legend {
+        font-size: 11px;
+        padding: 0;
+      }
+    }
+  }
+}

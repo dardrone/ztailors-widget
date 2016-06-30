@@ -1,0 +1,13 @@
+node_modules
+.vagrant
+public/assets
+app/server/config/webpack-assets.json
+.nodemon-find-ref
+npm-debug.log
+.env
+tests/reports
+reports
+logs
+src
+.DS_Store
+.idea

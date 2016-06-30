@@ -1,0 +1,118 @@
+/* begin - nav for users customers */
+.wrapper-popup-customer-form {
+  z-index: 99999 !important;
+}
+
+.wrapper-popup-customer-form .fancybox-skin {
+  padding: 0 25px 25px 25px;
+  border-radius: 0;
+  /*background-image: url(../images/bg1.jpg);*/
+}
+
+.reset-password {
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.popup-customer-logo {
+  display: block;
+  width: 100px;
+  padding-bottom: 5px;
+}
+
+.popup-customer-form {
+  text-align: center;
+  /*border: 1px solid #d3d3d3;*/
+  padding: 25px;
+  background-color: #fff;
+}
+
+.popup-customer-form h1 {
+  color: #3a3a3c;
+  margin: 0;
+}
+
+.popup-customer-form h1 strong {
+  color: #ABC9E9;
+  font-size: 30px;
+}
+
+.popup-customer-form h2 {
+  color: #404041;
+  margin: 0 0 25px 0;
+}
+
+.popup-customer-form input[type=text],
+.popup-customer-form input[type=email],
+.popup-customer-form input[type=password] {
+  display: block;
+  width: 100%;
+  height: 48px;
+  font-size: 15px;
+  margin: 10px 0 10px 0;
+}
+
+.popup-customer-form button {
+  width: 100%;
+  border: none;
+  background-color: #414141;
+  height: 46px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.popup-customer-form.forgot-password-form button {
+  font-size: 14px;
+}
+
+.popup-customer-form .remember-me {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: inline;
+}
+
+.popup-customer-form .remember-me input {
+  margin-top: 1px;
+}
+
+.popup-customer-form p {
+  margin-bottom: 10px;
+}
+
+.popup-customer-form p.error-message {
+  margin: 0;
+  height: 23px;
+  color: #ff0000;
+}
+
+.popup-customer-form p.success-message {
+  display: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.popup-customer-form .errors_list ul {
+  list-style: none;
+  text-align: left;
+  padding: 0 7px;
+  margin: 0 0 14px;
+
+  color: #ff0000;
+}
+
+.popup-form-terms-of-service {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.popup-customer-form a {
+  color: #f0d36c;
+}
+
+.popup-customer-form button .fa.fa-spinner {
+  color: #fff;
+}

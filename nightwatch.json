@@ -1,0 +1,100 @@
+{
+  "src_folders": [
+    "tests/acceptance"
+  ],
+  "output_folder": "tests/reports",
+  "custom_commands_path": "",
+  "custom_assertions_path": "",
+  "page_objects_path": "tests/pages/",
+  "globals_path": "",
+  "selenium": {
+    "log_path": "false",
+    "host": "127.0.0.1",
+    "port": "4444"
+  },
+  "test_settings": {
+    "default": {
+      "launch_url": "http://localhost",
+      "selenium_port": 4444,
+      "selenium_host": "localhost",
+      "silent": true,
+      "globals": {
+        "base_url": "http://localhost:9001/",
+        "sauce_user": "",
+        "sauce_key": "",
+        "ztailors_username": "darren.jennings@seven-26.com",
+        "ztailors_password": "asdfasdf",
+        "zapi_url": "http://zapi-dev.herokuapp.com/v1",
+        "debug": true,
+        "valid_promo_code": "TEST123",
+        "valid_once_promo_code": "TESTONCE",
+        "valid_credit_card_number": 4009348888881881,
+        "invalid_credit_card_number": 5105105105105100,
+        "valid_credit_card_cvv": 123,
+        "valid_credit_card_postal_code": 94612,
+        "valid_zipcode": 90210
+      },
+      "screenshots": {
+        "enabled": true,
+        "path": "tests/reports/screenshots"
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      }
+    },
+    "saucelabs": {
+      "selenium_host": "ondemand.saucelabs.com",
+      "selenium_port": 80,
+      "username": "seven26",
+      "access_key": "3c63f600-0cec-4916-9cd3-f89d77a34157",
+      "use_ssl": false,
+      "silent": true,
+      "output": true,
+      "screenshots": {
+        "enabled": false,
+        "on_failure": true,
+        "path": ""
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "version": "45"
+      },
+      "globals": {
+        "base_url": "https://zdemo.ztailors.com/zipcode",
+        "sauce_user": "olofguard",
+        "sauce_key": "35a624a6-0404-45da-a682-0bdff250edde",
+        "debug": true,
+        "ztailors_username": "darren.jennings@seven-26.com",
+        "ztailors_password": "asdfasdf",
+        "zapi_url": "http://zapi-dev.herokuapp.com/v1",
+        "valid_promo_code": "TEST123",
+        "valid_once_promo_code": "TESTONCE",
+        "valid_credit_card_number": 4009348888881881,
+        "invalid_credit_card_number": 5105105105105100,
+        "valid_credit_card_cvv": 123,
+        "valid_credit_card_postal_code": 94612,
+        "valid_zipcode": 90210
+      },
+      "selenium": {
+        "start_process": false
+      }
+    },
+    "chrome": {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      }
+    },
+    "phantomjs": {
+      "desiredCapabilities": {
+        "browserName": "phantomjs",
+        "javascriptEnabled": true,
+        "acceptSslCerts": false,
+        "phantomjs.binary.path": "/usr/local/bin/phantomjs"
+      }
+    }
+  }
+}

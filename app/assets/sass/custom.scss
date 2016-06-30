@@ -1,0 +1,62 @@
+
+h4 {
+  font-size: 15px/23px;
+}
+
+.z-spinner {
+  color: white;
+}
+
+.z-danger {
+  color: #a94442;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.z-loading-title {
+  font-weight: 600;
+}
+
+.z-form-loading {
+  opacity: 0.5;
+}
+
+.loader {
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: red;
+  z-index: 9999;
+}
+
+/*
+Bootstrap Login Modal
+*/
+
+.modal {
+  position: absolute;
+}
+
+.modal {
+  position: absolute;
+}
+
+.modal-backdrop {
+  position: absolute;
+  opacity: 0 !important;
+}
+
+.row {
+  margin-left: 0;
+}
+
+/*
+Bootstrap Overrides
+*/
+ul {
+  -webkit-padding-start: 0px !important;
+}

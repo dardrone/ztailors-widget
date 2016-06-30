@@ -1,0 +1,7 @@
+{
+  "watch": [
+    "app/server/",
+    ".env"
+  ],
+  "ext": "js html"
+}

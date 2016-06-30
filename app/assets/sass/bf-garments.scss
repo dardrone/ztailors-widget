@@ -1,0 +1,229 @@
+/*
+   *
+   * bf-garments.css
+   */
+
+#cont_div_expertise {
+  margin: auto;
+  margin-top: 20px;
+}
+
+#cont_div_expertise .btn-expertise:nth-child(n+4){
+  width:40%;
+}
+#cont_div_expertise .btn-expertise:nth-child(n+5){
+  width:40%;
+}
+
+.lightbox .lightbox-main .expertise section div.garments-list {
+  margin: 25px 0 5px;
+}
+
+.lightbox .lightbox-main .expertise section div.garments-list button {
+  font-size: 14px;
+  line-height: 45px;
+
+  position: relative;
+
+  width: 22%;
+  height: 167px;
+  margin: 0 1%;
+  padding: 0;
+
+  white-space: nowrap;
+
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.lightbox .lightbox-main .expertise section div.garments-list button:hover,
+.lightbox .lightbox-main .expertise section div.garments-list button.active {
+  border: 1px solid #4b4f54;
+}
+
+.lightbox .lightbox-main .expertise section div.garments-list button span {
+  display: block;
+
+  width: 100%;
+  height: 120px;
+  margin: 0;
+  padding: 0;
+
+  border-bottom: 1px solid #ccc;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+}
+
+.lightbox .jcf-button { text-decoration: underline; }
+
+.lightbox .lightbox-main .expertise section div.garments-list button:hover span,
+.lightbox .lightbox-main .expertise section div.garments-list button.active span {
+  border-bottom: 1px solid #4b4f54;
+  background-color: #f8e59a;
+}
+
+.lightbox .lightbox-main .expertise section div.garments-list .garments-qty-indicators {
+  display: none;
+  background-color: #414141 !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 24px;
+  line-height: 33px;
+  float: right;
+  margin: 5px;
+}
+
+.lightbox .lightbox-main .expertise section div.garments-list button div.quantity {
+  position: absolute;
+  top: 120px;
+  left: 0;
+
+  display: none;
+
+  width: 100%;
+
+  background: #fff;
+
+  border: 1px solid #4b4f54;
+  line-height: 44px;
+  height: 45px;
+  box-sizing: border-box;
+}
+
+.lightbox .lightbox-main .expertise section div.garments-list button div.quantity button {
+  float: left;
+  width: 70%;
+  font-weight: bold;
+}
+
+.lightbox .lightbox-main .expertise section div.garments-list button div.quantity .jcf-select.jcf-unselectable {
+  width: 30%;
+  min-width: 30%;
+  height: 43px;
+  margin-left: 70%;
+
+  border: none;
+}
+
+.lightbox .lightbox-main .expertise section div.garments-list button div.quantity .jcf-select.jcf-unselectable .jcf-select-text {
+  height: 100%;
+}
+
+.lightbox .lightbox-main .expertise section div.garments-list button div.quantity .jcf-select.jcf-unselectable .jcf-select-opener {
+  height: auto;
+
+  border: none;
+  border-left: 1px solid #4b4f54;
+  background-color: #fff;
+}
+
+.lightbox .lightbox-main .expertise section div.garments-list button div.quantity .jcf-select .jcf-select-opener:before {
+  margin-left: 14px;
+  border-width: 0 0 5px 5px;
+  border-color: #6d6d6d;
+}
+
+.lightbox .lightbox-main .expertise section.garments p {
+  font-size: 15px;
+  font-style: italic;
+
+  margin: 0 2%;
+}
+
+.appointment-form button.btn-expertise {
+  font-size: 18px;
+  font-weight: 600;
+
+  display: inline-block;
+
+  width: 30.3%;
+  margin: 0 1% 10px;
+  padding: 10px 0;
+
+  cursor: pointer;
+  text-transform: uppercase;
+
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.appointment-form button.btn-expertise:hover,
+.appointment-form button.btn-expertise.active {
+  border: 1px solid #4b4f54;
+  background: #f8e59a;
+}
+
+.appointment-form .jcf-radio {
+  display: none;
+}
+
+.jcf-select-drop {
+  padding-left: 1px;
+}
+
+.appointment-count-message{
+  padding: 10px 0 0;
+}
+
+@media only screen and (max-width: 1023px) {
+
+  .lightbox .lightbox-main .expertise section div.garments-list button div.quantity .jcf-select .jcf-select-opener:before {
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .lightbox .lightbox-main .expertise section div.garments-list button {
+    font-size: 12px;
+    line-height: 28px;
+
+    height: 130px;
+  }
+
+  .lightbox .lightbox-main .expertise section div.garments-list button span {
+    height: 100px;
+  }
+
+  .lightbox .lightbox-main .expertise section div.garments-list button div.quantity {
+    top: 100px;
+
+    line-height: 27px;
+    height: 28px;
+  }
+
+  .lightbox .lightbox-main .expertise section.garments p {
+    font-size: 13px;
+  }
+
+  .lightbox .lightbox-main .expertise section div.garments-list button div.quantity .jcf-select.jcf-unselectable {
+    height: 26px;
+  }
+
+  .jcf-select.jcf-drop-active .jcf-select-opener:before {
+    margin-top: 11px;
+  }
+
+}
+
+@media only screen and (max-width: 479px) {
+  .appointment-form button.btn-expertise {
+    font-size: 13px;
+    width:100%;
+  }
+
+  #cont_div_expertise .btn-expertise:nth-child(n+4){
+    width:100%;
+  }
+
+  .lightbox .lightbox-main .expertise section div.garments-list {
+    margin: 15px 0 0;
+  }
+
+  .lightbox .lightbox-main .expertise section div.garments-list button {
+    width: 47%;
+    margin-bottom: 3%;
+  }
+}

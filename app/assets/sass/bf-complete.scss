@@ -1,0 +1,123 @@
+h4 {
+  margin: 0;
+}
+
+hr {
+  margin: 20px 0 0 0;
+  border: thin dashed;
+}
+
+em {
+  font-weight: 600;
+  font-style: normal;
+}
+
+.appointment-form div.col-left {
+  padding: 0;
+  float: left;
+}
+
+.appointment-form span.bg-up {
+  width: 100%;
+  height: 5px;
+  display: block;
+}
+
+.appointment-form span.bg-down {
+  width: 100%;
+  height: 5px;
+  display: block;
+}
+
+.appointment-form div.col-left .content-left {
+  background-color: #f8e59a;
+  padding: 20px;
+}
+
+.appointment-form div.col-left p {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.appointment-form div.col-left .has-promo-code p {
+  padding-top: 15px;
+}
+
+.appointment-form div.col-left a {
+  text-decoration: underline;
+}
+
+.appointment-form div.col-left div.booking-id {
+  float: left;
+
+  width: 50%;
+}
+
+.appointment-form div.col-left div.add-to-calendar {
+  float: right;
+
+  width: 50%;
+}
+
+
+div.add-to-calendar ul.social-links {
+  font-size: 20px;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+div.add-to-calendar ul.social-links li {
+  display: inline;
+
+  padding: 0 2px;
+}
+
+.confirmation-ticket div.col-right {
+  padding: 0 0 20px 20px;
+  float: right;
+  text-align: left;
+  font-weight: 300;
+}
+
+.confirmation-ticket div,
+.confirmation-ticket div.col-right div,
+.confirmation-ticket div.col-left div{
+  font-weight: 600;
+}
+.confirmation-ticket div.col-left div:nth-last-child(1),
+.confirmation-ticket div.col-right div:nth-last-child(1){
+  padding-bottom:20px;
+}
+
+.confirmation-ticket div.col-right p {
+  margin: 0;
+}
+.confirmation-ticket div.col-right h3 {
+  font-weight: 600;
+}
+.confirmation-ticket h2{
+  margin-bottom: 10px;
+}
+
+.confirmation-ticket .row.code-and-icons p {
+  padding-bottom: 7px;
+}
+
+.appointment-form.complete h3 {
+  margin-top: 0;
+  margin-bottom: 0 !important;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.confirmation-ticket {
+  margin-bottom: 20px;
+}
+
+.confirmation-ticket-container{
+  padding-top:20px !important;
+}

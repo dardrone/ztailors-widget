@@ -1,0 +1,27 @@
+{
+  "extends": "eslint:recommended",
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "strict": 2,
+    "curly": 2,
+    "no-underscore-dangle": 1,
+    "no-console": 1,
+    "no-alert":2,
+    "jsx-quotes": 1,
+    "no-mixed-requires": 1,
+    "no-unused-vars":0,
+    "no-undef": 0,
+    "quotes": [
+      2,
+      "single"
+    ]
+  }
+}

@@ -1,0 +1,267 @@
+
+.jcf-radio {
+  position: relative;
+
+  display: inline-block;
+  overflow: hidden;
+
+  width: 16px;
+  height: 16px;
+  margin: 0 3px 0 0;
+
+  cursor: default;
+  vertical-align: middle;
+
+  border: 1px solid #777;
+  border-radius: 9px;
+  background: #fff;
+}
+
+.jcf-radio span {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  bottom: 3px;
+  left: 3px;
+
+  display: none;
+
+  border-radius: 100%;
+  background: #777;
+}
+
+.jcf-radio input[type='radio'] {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+
+  border: 0;
+}
+
+.jcf-radio.jcf-checked span {
+  display: block;
+}
+
+.jcf-select {
+  position: relative;
+
+  display: block;
+
+  min-width: 150px;
+  height: 50px;
+  margin: 9px 0 11px;
+
+  cursor: pointer;
+  vertical-align: top;
+
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.jcf-select .jcf-select-opener {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  width: 51px;
+
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  text-align: center;
+
+  border-left: 1px solid #ccc;
+  background: #fff;
+}
+
+.jcf-select .jcf-select-opener:before {
+  position: absolute;
+  top: 0;
+  right: auto;
+  bottom: auto;
+  left: 0;
+
+  width: 15px;
+  height: 15px;
+  margin: 10px 0 0 18px;
+
+  content: ' ';
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+
+  border: 2px solid #4b4f54;
+  border-width: 0 0 2px 2px;
+}
+
+.jcf-select.jcf-focus {
+  background: #fff;
+}
+
+.jcf-select select {
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.jcf-select .jcf-select-text {
+  line-height: 26px;
+
+  display: block;
+  overflow: hidden;
+
+  margin: 0 56px 0 15px;
+
+  cursor: default;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.jcf-select .jcf-select-text span {
+  display: block;
+  overflow: hidden;
+
+  padding: 10px 0;
+
+  text-overflow: ellipsis;
+}
+
+.jcf-select-drop {
+  position: absolute;
+  z-index: 9999;
+  top: 100%;
+  right: -1px;
+  left: -1px;
+
+  margin: 0;
+}
+
+.jcf-select.jcf-disabled {
+  opacity: .5;
+}
+
+.jcf-select.jcf-drop-active .jcf-select-opener:before {
+  margin: 20px 0 0 18px;
+
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+}
+
+.jcf-select-drop.jcf-drop-flipped {
+  margin: 1px 0 0;
+}
+
+.jcf-select .jcf-drop-flipped {
+  top: auto;
+  bottom: 100%;
+}
+
+.jcf-select-drop .jcf-hover,
+.jcf-list-box .jcf-selected {
+  background: #fcf2cd;
+}
+
+.jcf-select-drop .jcf-select-drop-content {
+  border: 1px solid #4b4f54;
+}
+
+.jcf-list .jcf-overflow {
+  overflow: auto;
+}
+
+.jcf-list .jcf-disabled {
+  color: #aaa !important;
+  background: #fff !important;
+}
+
+.jcf-list-box {
+  display: inline-block;
+  overflow: hidden;
+
+  min-width: 200px;
+  margin: 0 15px;
+
+  border: 1px solid #b8c3c9;
+}
+
+.jcf-list {
+  line-height: 25px;
+
+  position: relative;
+
+  display: inline-block;
+
+  width: 100%;
+
+  vertical-align: top;
+
+  background: #fff;
+}
+
+.jcf-list ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.jcf-list ul li {
+  display: block;
+  overflow: hidden;
+
+  border-top: 1px solid #4b4f54;
+}
+
+.jcf-list ul li:first-child {
+  border-top: 0;
+}
+
+.jcf-list .jcf-option {
+  display: block;
+  overflow: hidden;
+
+  height: 1%;
+  padding: 8px 0;
+
+  cursor: default;
+  text-align: left;
+  white-space: nowrap;
+  text-indent: 15px;
+  text-overflow: ellipsis;
+
+  color: #4b4f54;
+}
+
+.jcf-list .jcf-list-content {
+  display: inline-block;
+  overflow: auto;
+
+  width: 100%;
+
+  vertical-align: top;
+
+  background: #fff;
+}
+
+.jcf-list .jcf-optgroup-caption {
+  font-weight: bold;
+
+  display: block;
+
+  padding: 5px 9px;
+
+  cursor: default;
+  white-space: nowrap;
+
+  color: #000;
+}
