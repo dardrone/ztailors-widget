@@ -1,4 +1,4 @@
-# Z-Widget - Tailor Booking
+# DEPRECATED DO NOT USE - Z-Widget - Tailor Booking
 
 Javascript widget for booking a ztailor.
  
